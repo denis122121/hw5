@@ -225,6 +225,8 @@ min-width: 169px;
 display: block;
 margin: 0 auto;
 transition: background-color var(--transition-funk);
+transition: background-color var(--transition-dur);
+
 
 
 }
