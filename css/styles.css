@@ -516,10 +516,12 @@ gap: 120px;
     border: 1px solid #e7e9fc;
     color: var(--global-color-blue);
     background-color: var(--background-color-grey);
-     background-color: var(--transition-dur-and-funk);
-    transition: var(--transition-dur-and-funk);
-     border-clor: var(--transition-dur-and-funk);
-     box-shadow: var(--transition-dur-and-funk);
+    
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   
 
 }
 
@@ -575,12 +577,13 @@ display: flex;
 }
 .block{
     display: block;
-    transform: box-shadow var(--transition-dur-and-funk);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 .block:hover,
 .block:focus{
     box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
+    
 }
   .img-link{
     display: block;
