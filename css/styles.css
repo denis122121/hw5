@@ -519,6 +519,9 @@ gap: 120px;
     color: var(--global-color-blue);
     background-color: var(--background-color-grey);
     transition: background-color var(--transition-dur-and-funk);
+    transition: var(--transition-dur-and-funk);
+    transition: border-clor var(--transition-dur-and-funk);
+    transition: box-shadow var(--transition-dur-and-funk);
 
 }
 
