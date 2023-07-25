@@ -224,7 +224,7 @@ padding-right: 32px;
 min-width: 169px;
 display: block;
 margin: 0 auto;
-transition: background-color var(--transition-dur-and-funk);
+transition: background-color var(--transition-funk);
 
 
 }
