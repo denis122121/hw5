@@ -556,10 +556,10 @@ box-shadow:0px 3px 1px rgba(0, 0, 0, 0.1),
     overflow: hidden;
 }
 .list-finger-item:hover .overlay{
-    transform: translateY(0);
+    transform: translateY(0%);
 }
-.list-finger-item:focus .overlay {
-    transform: translateY(0);
+.list-finger-item:focus .overlay{
+    transform: translateY(0%);
 }
 .finger{
     
