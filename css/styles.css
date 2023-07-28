@@ -555,12 +555,7 @@ box-shadow:0px 3px 1px rgba(0, 0, 0, 0.1),
     position: relative;
     overflow: hidden;
 }
-.list-finger-item:hover .overlay{
-    transform: translateY(0%);
-}
-.list-finger-item:focus .overlay{
-    transform: translateY(0%);
-}
+
 .finger{
     
 display: flex;
@@ -583,10 +578,21 @@ display: flex;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
+/* .list-finger-item:hover .overlay {
+    transform: translateY(0%);
+}
+
+.list-finger-item:focus .overlay {
+    transform: translateY(0%);
+} */
 .block:hover,
 .block:focus{
     box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
- transform: translateY(0%)
+ 
+}
+.block:focus .overlay,
+.block:hover .overlay {
+    transform: translateY(0%);
 }
   .img-link{
     display: block;
